@@ -1,10 +1,11 @@
 import React from "react";
+import PageContent from "../components/PageContent";
 
 function HomePage() {
   return (
-    <div>
-      <h1>This is Home Page </h1>
-    </div>
+    <PageContent title="Welcome!">
+      <p>browse All our amazing content </p>
+    </PageContent>
   );
 }
 

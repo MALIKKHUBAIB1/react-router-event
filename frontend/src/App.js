@@ -29,9 +29,9 @@ import EventDetailPage, {
   action as deleteEventAction,
 } from "./pages/EvenetDetail";
 import NewEventPage from "./pages/NewEvenetPage";
-import EditEvent from "./pages/EditEvent";
+import EditEvent from "../src/pages/EditEvent.js";
 import EventRoot from "./pages/EvenetRoot";
-import { eventLoader } from "./utils/EvenetPageLoader"; // Make sure the loader function is exported correctly
+import { eventLoader } from "./pages/Events.js"; // Make sure the loader function is exported correctly
 import { actions as manipulateAction } from "./components/EventForm";
 import NewsletterPage, {
   action as newsletterAction,
